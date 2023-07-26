@@ -9,7 +9,7 @@ function PokemonCard (props) {
       <Link className="text-decoration-none" to={'/pokemon/' + pokemon.name}>
       <div className="card text-center">
         <div className="card-body">
-          <img className="fluid-img" src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${index}.png`} alt={pokemon.nam} />
+          <img className="fluid-img" src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${index}.png`} alt={pokemon.name} />
         </div>
         <div className="card-footer text-muted text-capitalize">
             {pokemon.name}
